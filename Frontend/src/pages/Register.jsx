@@ -32,7 +32,7 @@ function Register() {
 
     if (password !== password2) {
       toast.error('Passwords do not match');
-      console.log('work');
+      console.log('not match');
     } else {
       const userData = {
         name,
